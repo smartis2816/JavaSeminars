@@ -200,7 +200,7 @@ class WaveAlgorithm {
         for (Coordinates item : bt) {
             for (int i = 0; i < map.length; i++) {
                 for (int j = 0; j < map.length; j++) {
-                    if (item.x == i && item.y == j){
+                    if (item.x == i && item.y == j) {
                         map[i][j] = -1;
                     }
                 }
