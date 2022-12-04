@@ -1,3 +1,0 @@
-Postgres
-
-https://pythonru.com/osnovy/sqlite-v-python

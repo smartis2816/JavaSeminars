@@ -13,7 +13,6 @@ public class NewTree {
         if (current == null) {
             return new Node(value);
         }
-
         if (value < current.value) {
             current.left = insert(current.left, value);
         } else {
@@ -39,7 +38,7 @@ public class NewTree {
         StringBuilder sb = new StringBuilder();
         if (node != null) {
             sb.append(node.value);
-            sb.append("\n");
+            sb.append("  ");
             System.out.print(sb);
             bypass(node.left);
             bypass(node.right);
